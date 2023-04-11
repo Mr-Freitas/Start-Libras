@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+
+.fundo{
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagens/hands.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.overley{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+}
+
+.caixa{
+    top: 40%;
+    left: 70%;
+    padding: 8px;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+}
+
+#botao1{
+    background-color:rgb(51, 128, 44) ;
+    border: none;
+    padding: 8px;
+    width: 40%;
+    border-radius: 8px;
+    color: white
+}
+ .inputs{
+    border: none;
+    border-radius: 16px;
+    padding: 8px;
+    width: 100%;
+ }
+ #conta{
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+ }
+
+ .caixa2{
+    top: 15%;
+    left: 10%;
+    width: 20%;
+    position: absolute;
+ }
+ #logo-text{
+    font-size: 30px;
+    color: blueviolet;
+ }
+ #p1{
+    font-size: 25px;
+    padding: 10px;
+    color: blueviolet;
+ }
+ .caixa3{
+    left: 7%;
+    top: 35%;
+    width: 25%;
+    position: absolute;
+ }
+ .caixa4{
+    left: 15%;
+    top: 80%;
+    position: absolute;
+ }
+
+ #botao2{
+    border: none;
+    padding: 8px;
+    
+    border-radius: 8px;
+    color: blueviolet;
+ }
